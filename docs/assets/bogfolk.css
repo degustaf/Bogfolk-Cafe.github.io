@@ -100,8 +100,12 @@ details[open]>summary {
   list-style-type: '– ';
 }
 
-iframe.itch {
+iframe.form {
   width: 100%;
+  height: 800px;
+  resize: vertical;
+  overflow: auto;
+  border: none;
 }
 
 #license li {
@@ -443,6 +447,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 .glitch {
